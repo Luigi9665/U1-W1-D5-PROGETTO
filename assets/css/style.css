@@ -1,1 +1,72 @@
 /* Your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Open+Sans:ital@0;1&display=swap");
+
+body {
+  /* # #393d41 – 1.2rem – Open Sans – interlinea 1.65 */
+  min-width: 400px;
+  font-family: "Open Sans", sans-serif;
+  color: #393d41;
+  line-height: 1.65;
+  letter-spacing: -2px;
+  font-size: 1.25rem;
+}
+
+img {
+  max-width: 400px;
+}
+/* header */
+header {
+  line-height: 1.5;
+}
+
+#logo {
+  text-align: center;
+  background-color: black;
+  padding: 25px;
+}
+
+#logo img {
+  max-width: 150px;
+  max-height: 50px;
+}
+
+#hero {
+  background-image: url("../img/banner.jpg");
+  background-size: contain;
+  text-align: center;
+  padding: 35px 20px 28px 20px;
+}
+
+#hero h1 {
+  font-family: "Montserrat", sans-serif;
+  padding: 20px;
+  color: #2c9dca;
+  font-size: 2em;
+  line-height: 1;
+}
+
+#hero p {
+  padding-bottom: 30px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+#hero button {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  border: transparent;
+  border-radius: 5px;
+  background-color: #f04c2f;
+  padding: 10px 25px 10px;
+  font-size: 0.7em;
+  cursor: pointer;
+}
+
+/* main */
+
+.sotto-titoli {
+  text-align: center;
+  padding: 35px 20px 28px 20px;
+}
+
+/* footer */
