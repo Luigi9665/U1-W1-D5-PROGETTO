@@ -155,7 +155,7 @@ main {
 
 /* footer */
 
-footer div {
+footer #foot {
   background-color: #25a2c3;
   color: white;
   text-align: center;
@@ -170,7 +170,7 @@ footer div h2 {
 }
 
 footer #contatti {
-  padding: 25px 30px 25px;
+  padding-block: 25px 25px;
   margin-top: 0px;
 }
 
@@ -179,7 +179,7 @@ footer p {
   color: #c8e7f0;
 }
 
-footer div a {
+footer #foot a {
   color: #c8e7f0;
 }
 
@@ -196,4 +196,17 @@ footer .back-icon {
   height: 25px;
   background-color: white;
   border-radius: 3px;
+}
+
+footer #contenitore {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer #contenitore p {
+  display: inline;
+  letter-spacing: -0.3px;
 }
