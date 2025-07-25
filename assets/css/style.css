@@ -11,9 +11,6 @@ body {
   font-size: 1.25rem;
 }
 
-img {
-  max-width: 400px;
-}
 /* header */
 header {
   line-height: 1.5;
@@ -63,10 +60,140 @@ header {
 }
 
 /* main */
+main {
+  text-align: center;
+}
 
 .sotto-titoli {
-  text-align: center;
   padding: 35px 20px 28px 20px;
 }
 
+.sotto-titoli h4 {
+  font-family: "Montserrat", sans-serif;
+  color: #2c9dca;
+  font-size: 1em;
+  letter-spacing: 0px;
+}
+
+.sotto-titoli p {
+  font-size: 1em;
+  letter-spacing: 0px;
+  padding-block: 15px;
+}
+
+#logo-pc {
+  text-align: center;
+  padding-inline: 50px;
+}
+
+#logo-pc img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+/* testimonial */
+
+.blocco-rosso {
+  background-color: #e22d0e;
+  padding-block: 45px 20px;
+}
+.testimonial h2 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 1.5em;
+  letter-spacing: 0.3px;
+}
+
+.testimonial p {
+  padding: 15px;
+  font-style: italic;
+  color: white;
+  font-size: 1em;
+  letter-spacing: -0.5px;
+  padding-block: 15px;
+}
+
+#ceo p {
+  font-size: 0.8em;
+  color: white;
+  letter-spacing: -0.7px;
+}
+
+#ceo .mario {
+  letter-spacing: -0.7px;
+  font-size: 1.4em;
+  color: white;
+}
+
+/* card */
+
+#card {
+  padding: 20px;
+}
+
+#card img {
+  width: 100%;
+}
+
+#card .card {
+  border: 2px solid #dee1e3;
+  margin-top: 30px;
+}
+
+#card .card h4 {
+  font-family: "Montserrat", sans-serif;
+  color: #2c9dca;
+  font-size: 1em;
+  letter-spacing: 0px;
+}
+
+#card .card p {
+  font-size: 1em;
+  letter-spacing: -0.8px;
+  padding: 15px 20px 30px;
+}
+
 /* footer */
+
+footer div {
+  background-color: #25a2c3;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  margin-top: 40px;
+}
+
+footer div h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  letter-spacing: 0px;
+}
+
+footer #contatti {
+  padding: 25px 30px 25px;
+  margin-top: 0px;
+}
+
+footer p {
+  font-size: 0.9em;
+  color: #c8e7f0;
+}
+
+footer div a {
+  color: #c8e7f0;
+}
+
+footer i {
+  letter-spacing: 1.2px;
+  font-size: 0.8em;
+}
+
+footer .back-icon {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 3px;
+}
